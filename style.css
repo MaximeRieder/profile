@@ -1,0 +1,100 @@
+body {
+  background-color: rgb(240, 240, 240);
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(100, 100, 100);
+  line-height: 40px;
+  margin: 0;
+}
+
+h1, h2 {
+  color: black;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  font-size: 30px;
+}
+
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: rgb(150, 150, 150);
+}
+a:hover {
+  color: white;
+}
+.card {
+  text-align: center;
+  background-color: white;
+  width: 750px;
+  border-radius: 4px;
+  margin: 0 auto;
+  padding-top: 1px;
+}
+p {
+  font-size: 24px;
+  color: rgb(100, 100, 100);
+}
+.footer {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  background-color: black;
+  padding-right: 50px;
+}
+.btn-no-css {
+  background-color:rgb(37, 119, 186);
+  border-radius: 4px;
+  color:#ffffff;
+  font-size:13px;
+  font-weight:bold;
+  padding: 15px;
+  text-decoration:none;
+  font-size: 20px;
+}
+
+.btn-no-css a {
+  color: white;
+}
+
+.center {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.btn-no-css:hover {
+  opacity: 0.5;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.header {
+  background-color: white;
+  opacity: 0.97;
+  padding: 1px;
+  margin-bottom: 10px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
+
